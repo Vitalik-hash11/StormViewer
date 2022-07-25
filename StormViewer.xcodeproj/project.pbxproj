@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		DDC4EA57288F1D6D0015B98F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC4EA56288F1D6D0015B98F /* AppDelegate.swift */; };
 		DDC4EA59288F1D6D0015B98F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC4EA58288F1D6D0015B98F /* SceneDelegate.swift */; };
-		DDC4EA5B288F1D6D0015B98F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC4EA5A288F1D6D0015B98F /* ViewController.swift */; };
+		DDC4EA5B288F1D6D0015B98F /* StormViewerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC4EA5A288F1D6D0015B98F /* StormViewerTableViewController.swift */; };
 		DDC4EA5E288F1D6D0015B98F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC4EA5C288F1D6D0015B98F /* Main.storyboard */; };
 		DDC4EA60288F1D710015B98F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC4EA5F288F1D710015B98F /* Assets.xcassets */; };
 		DDC4EA63288F1D710015B98F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC4EA61288F1D710015B98F /* LaunchScreen.storyboard */; };
@@ -29,7 +29,7 @@
 		DDC4EA53288F1D6D0015B98F /* StormViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StormViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC4EA56288F1D6D0015B98F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDC4EA58288F1D6D0015B98F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DDC4EA5A288F1D6D0015B98F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDC4EA5A288F1D6D0015B98F /* StormViewerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormViewerTableViewController.swift; sourceTree = "<group>"; };
 		DDC4EA5D288F1D6D0015B98F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DDC4EA5F288F1D710015B98F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDC4EA62288F1D710015B98F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 		DDC4EA55288F1D6D0015B98F /* StormViewer */ = {
 			isa = PBXGroup;
 			children = (
-				DDC4EA5A288F1D6D0015B98F /* ViewController.swift */,
+				DDC4EA5A288F1D6D0015B98F /* StormViewerTableViewController.swift */,
 				DDC4EA5C288F1D6D0015B98F /* Main.storyboard */,
 				DDC4EA5F288F1D710015B98F /* Assets.xcassets */,
 				DDC4EA6A288F1E1B0015B98F /* Supporting Files */,
@@ -194,7 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDC4EA5B288F1D6D0015B98F /* ViewController.swift in Sources */,
+				DDC4EA5B288F1D6D0015B98F /* StormViewerTableViewController.swift in Sources */,
 				DDC4EA57288F1D6D0015B98F /* AppDelegate.swift in Sources */,
 				DDC4EA59288F1D6D0015B98F /* SceneDelegate.swift in Sources */,
 			);
