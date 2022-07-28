@@ -28,6 +28,8 @@ class StormViewerTableViewController: UITableViewController {
                 pictures.append(item)
             }
         }
+
+        pictures.sort()
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -46,6 +48,8 @@ class StormViewerTableViewController: UITableViewController {
         tableView.deselectRow(at: indexPath, animated: true)
         if let vc = storyboard?.instantiateViewController(identifier: "Detail") as? DetailViewController {
             vc.selectedImage = pictures[indexPath.row]
+            vc.currentPossition = indexPath.row + 1
+            vc.totalImages = pictures.count
             navigationController?.pushViewController(vc, animated: true)
         }
     }
